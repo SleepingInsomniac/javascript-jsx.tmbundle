@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changed</key>
+	<dict>
+		<key>content</key>
+		<string>export class ${1:ClassName} extends React.Component {
+  render() {
+    return (
+      &lt;${2:TagName}&gt;&lt;/${2:TagName}&gt;
+    );
+  }
+}</string>
+		<key>name</key>
+		<string>Component</string>
+		<key>tabTrigger</key>
+		<string>com</string>
+	</dict>
+	<key>isDelta</key>
+	<true/>
+	<key>uuid</key>
+	<string>66C3F21C-5762-40D7-A383-ABDFFC26EFE5</string>
+</dict>
+</plist>
